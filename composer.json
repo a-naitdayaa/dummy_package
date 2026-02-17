@@ -2,12 +2,13 @@
     "name": "a-naitdayaa/dummy_package",
     "description": "This is a dummy package, used for testing purposes only.",
     "type": "library",
+    "homepage": "https://config.thephpleague.com",
+    "license": "BSD-3-Clause",
     "autoload": {
         "psr-4": {
-            "Mac\\DummyPackage\\": "src/"
+            "a-naitdayaa\\DummyPackage\\": "src/"
         }
     },
-    "license": "MIT",
     "authors": [
         {
             "name": "a-naitdayaa",
