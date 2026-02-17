@@ -7,7 +7,7 @@
             "Mac\\DummyPackage\\": "src/"
         }
     },
-    "license": "proprietary",
+    "license": "MIT",
     "authors": [
         {
             "name": "a-naitdayaa",
