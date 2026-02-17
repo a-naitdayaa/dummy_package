@@ -1,0 +1,25 @@
+{
+    "name": "a-naitdayaa/dummy_package",
+    "description": "This is a dummy package, used for testing purposes only.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Mac\\DummyPackage\\": "src/"
+        }
+    },
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "a-naitdayaa",
+            "email": "a.naitdayaa@void.fr"
+        }
+    ],
+    "require-dev": {
+        "phpstan/phpstan": "^2.1",
+        "squizlabs/php_codesniffer": "^4.0"
+    },
+    "require": {
+        "nette/schema": "^1.3",
+        "dflydev/dot-access-data": "^3.0"
+    }
+}
